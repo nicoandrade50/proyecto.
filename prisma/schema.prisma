@@ -13,6 +13,7 @@ datasource db {
 
 model Dump {
  id                Int @id @default(autoincrement())
+ name               String
   description       String?
   ubication         String
   maintenance       String
